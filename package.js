@@ -3,7 +3,7 @@ Package.describe({
   summary: 'Helpers for reactive variables assigned to a Blaze ' + 
            'Template instance',
   version: '0.2.0',
-  git: '' // Pending
+  git: 'https://github.com/fongandrew/meteor-instance-vars.git'
 });
 
 Package.onUse(function(api) {
