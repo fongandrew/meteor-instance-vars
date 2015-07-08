@@ -27,7 +27,7 @@ Template.myTemplate.onCreated(function() {
 
 Template.myTemplate.helpers({
   // instance.getVars returns a dict with all of the variables set with
-  // instnace.createVars. The helper below would presumably used as a 
+  // instnace.createVars. The helper below would presumably be used as a 
   // {{#with data}} block. 
   data: function() {
     return Template.instance().getVars();
